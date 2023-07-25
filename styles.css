@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Lumanosimo&family=Righteous&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Righteous", cursive;
+}
+
+header {
+  /* border: 2px solid black; */
+  width: 100%;
+  position: fixed;
+  background-color: #fff;
+  z-index: 1;
+}
+
+nav {
+  /* border: 2px solid red; */
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+form {
+  width: 400px;
+}
+
+input[type="search"] {
+  width: 100%;
+  padding: 0.4rem 1rem;
+  outline: none;
+}
+
+.nav__tags {
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 10px;
+  /* background-color: black;
+  color: #fff; */
+}
+
+.calender {
+  display: flex;
+  flex-direction: column;
+}
+span:last-child {
+  opacity: 0.6;
+}
+
+.nav__tags a {
+  text-decoration: none;
+  text-transform: capitalize;
+  /* color: #fff; */
+  color: #100f0f;
+  opacity: 0.6;
+}
+
+.nav__tags a:hover {
+  color: rgb(112, 12, 12);
+  border-left: 4px inset;
+  padding-left: 4px;
+}
+.nav__tags a:active {
+  color: rgb(38, 7, 7);
+  border-bottom: 4px inset;
+
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(28, 1, 1);
+  /* background-color: grey; */
+  width: 60px;
+  height: 55px;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.btn i {
+  color: #fff;
+  font-size: 18px;
+}
+
+/* styling for main */
+
+main {
+  /* border: 2px solid red; */
+  padding-top: 11rem;
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  gap: 30px;
+}
+
+/* section{
+    border: 2px solid blue;
+} */
+
+.img__side {
+  /* border: 2px solid blue; */
+  height: 60vh;
+  border-radius: 10px;
+  position: sticky;
+  top: 17%;
+}
+
+.img__side img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+.post__card {
+  border-bottom: 2px solid rgba(0, 0, 0, 0.126);
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+  padding-bottom: 10px;
+}
+
+.img__container {
+  width: 300px;
+  height: 200px;
+  border-radius: 20px;
+}
+
+.img__container img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+
+.post__content {
+  padding: 1rem;
+  width: 80%;
+}
+
+.top span {
+  font-size: 13px;
+}
+.top span:first-child {
+  border: 2px solid rgba(128, 128, 128, 0.719);
+  padding: 4px;
+}
+
+.posts {
+  margin: 0.7rem 0;
+}
+
+.posts h2 {
+  font-size: 18px;
+}
+.posts p {
+  font-size: 16px;
+  opacity: 0.5;
+  line-height: 20px;
+  margin: 4px 0 0;
+  font-weight: 400;
+}
